@@ -3,7 +3,7 @@ const app = express();
 const port = 3333;
 
 app.get("/", (req, res) => {
-  res.send("port 3333");
+  res.send("root");
 });
 
 app.listen(port, () => {
