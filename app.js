@@ -1,11 +1,11 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3333;
 
-app.get('/', (req, res) => {
-  res.send('hello');
+app.get("/", (req, res) => {
+  res.send("port 3333");
 });
 
 app.listen(port, () => {
-  console.log('8000!');
+  console.log(port);
 });
